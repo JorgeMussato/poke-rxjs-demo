@@ -1,7 +1,7 @@
-import {Observable} from 'rxjs';
+import { Observable } from "rxjs";
 
-let observable = Observable.create((observer: any) => {
-    observer.next('hello world');
+let observable = new Observable((observer: any) => {
+  observer.next("hello world");
 });
 
 observable.subscribe((value: any) => console.log(value));
