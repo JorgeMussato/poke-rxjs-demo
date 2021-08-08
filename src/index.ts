@@ -1,7 +1,3 @@
-import { Observable } from "rxjs";
+import { startGame } from "./game";
 
-let observable = new Observable((observer: any) => {
-  observer.next("hello world");
-});
-
-observable.subscribe((value: any) => console.log(value));
+startGame();
