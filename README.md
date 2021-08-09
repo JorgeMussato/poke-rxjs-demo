@@ -4,4 +4,4 @@ This is a project being developed to practice RxJs and reactive programming. Con
 
 D3.js is used for rendering.
 
-To start and take a peak, run the command `npm start` and have fun trying to catch some pokémons.
+To start and take a peek, run the command `npm start` and have fun trying to catch some pokémons.
